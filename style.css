@@ -135,3 +135,46 @@ body {
   border: 1px solid #fff;
   color: #fff;
 }
+
+@media (max-width: 390px) {
+  .column {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    overflow-y: auto;
+  }
+
+  .column-1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .column-2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .column-3 {
+    width: 100%;
+    height: auto;
+  }
+
+  .content-1 {
+    height: 100%;
+    padding: 15px;
+  }
+
+  .content-2 {
+    height: 100%;
+    padding: 15px;
+  }
+
+  .content-3 {
+    height: 100%;
+    padding: 15px;
+  }
+
+  .button {
+    margin-top: 2rem;
+  }
+}
