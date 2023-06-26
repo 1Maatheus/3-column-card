@@ -136,7 +136,7 @@ body {
   color: #fff;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 450px) {
   .column {
     display: flex;
     flex-direction: column;
